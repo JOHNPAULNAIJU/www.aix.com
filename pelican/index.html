@@ -17,7 +17,7 @@
     <div id="id1">
         <div id="id2">
             <div id="id3">
-                <!--google user image here--><img id="dp" src="https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png">
+                <!--google user image here--><img id="dp" src="">
                 <div id="newchat">
                     <div class="dropdown">
                         <button class="dropbtn">
@@ -179,7 +179,7 @@
             // The ID token you need to pass to your backend:                               //
             var id_token = googleUser.getAuthResponse().id_token;                          //
             var idt = id_token;                                                           //
-            document.getElementById("#google").style.display = "none";                   //
+            document.getElementById("#dp").style.src = profile.getImageUrl();                   //
           }                                                                             //
 //***************************************************************************************
     </script>
